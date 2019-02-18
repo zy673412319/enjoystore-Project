@@ -1,0 +1,61 @@
+html {
+  font-family: "microsoft yahei", "Heiti SC", 'Open Sans', sans-serif;
+  font-size: 83%;
+}
+
+html, body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "microsoft yahei", "Heiti SC", 'Open Sans', sans-serif;
+  -webkit-text-size-adjust: auto !important;
+  color: #333333;
+  background: #f2f2f2;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  text-decoration: none;
+  color: #333333;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+  color: #333333;
+}
+
+ul {
+  list-style: none;
+}
+
+.notLogin {
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+}
+
+.postbird-box-container{
+  background: rgba(0,0,0,.68);
+}
+
+.picker-item{
+  font-size: 14px;
+}
